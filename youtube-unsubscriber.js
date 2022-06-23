@@ -8,7 +8,7 @@ function myTimer() {
 
     if (i < els.length) {
 
-        els[i].querySelector("[aria-label^='Unsubscribe from']").click();
+        els[i].querySelector("[aria-label^='Cancelar inscrição de']").click();
 
         setTimeout(function () {
 
@@ -26,8 +26,8 @@ function myTimer() {
 
     i++;
 
-    console.log(i + " Channels Unsubscribed\n");
+    console.log(i + " Canais desinscritos\n");
 
-    console.log(els.length + " remaining");
+    console.log(els.length + " restando");
 
 }
